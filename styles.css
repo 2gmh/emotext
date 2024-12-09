@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FFF9D7; /* Pastel amarillo claro como Pompompurin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #FBE2B8; /* Color pastel melón */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #F7B5A4; /* Color rosa pastel suave */
+}
+
+textarea {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #b3b484;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+textarea[readonly] {
+    background-color: #FAF0D7; /* Color pastel beige claro */
+}
+
+.buttons button {
+    background-color: transparent; /* Sin fondo */
+    color: #F7B5A4; /* Rosa pastel suave */
+    border: 1px solid #F7B5A4; /* Bordes rosa pastel */
+    padding: 8px 16px; /* Reducción de tamaño */
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease; /* Transición suave */
+}
+
+.buttons button:hover {
+    color: #FFF; /* Cambia el color de la fuente a blanco */
+    background-color: #F7B5A4; /* Fondo rosa pastel suave al pasar el mouse */
+}
+
+.gif-container {
+    margin-bottom: 20px;
+}
+
+.gif {
+    width: 120px; /* Tamaño adecuado */
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
